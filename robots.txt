@@ -1,1 +1,1 @@
-Sitemap: https://post.gadsby.me/gadsby/sitemap.xml
+Sitemap: https://gadsby.me/gadsby/sitemap.xml
