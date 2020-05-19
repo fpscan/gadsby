@@ -5,7 +5,7 @@ description: I got this when I started using github.
 categories: [git]
 title: GitHub keeps saying “This branch is X commits ahead, Y commits behind”
 ---
-# This branch is X commits ahead, Y commits behind”
+# This branch is X commits ahead, Y commits behind
 
 There is a easier way to sync your fork with the original repository. Open your git:
 
