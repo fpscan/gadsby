@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://gadsby.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://gadsby.me/" rel="alternate" type="text/html" /><updated>2020-05-17T06:18:58-05:00</updated><id>https://gadsby.me/feed.xml</id><title type="html">gadsby</title><subtitle>lamps in video games use real electricity.</subtitle><entry><title type="html">GitHub keeps saying “This branch is X commits ahead, Y commits behind”</title><link href="https://gadsby.me/git/2020/05/14/X-commits-ahead-Y-commits-behind.html" rel="alternate" type="text/html" title="GitHub keeps saying “This branch is X commits ahead, Y commits behind”" /><published>2020-05-14T00:00:00-05:00</published><updated>2020-05-14T00:00:00-05:00</updated><id>https://gadsby.me/git/2020/05/14/X-commits-ahead-Y-commits-behind</id><content type="html" xml:base="https://gadsby.me/git/2020/05/14/X-commits-ahead-Y-commits-behind.html">&lt;h1 id=&quot;this-branch-is-x-commits-ahead-y-commits-behind&quot;&gt;This branch is X commits ahead, Y commits behind”&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://gadsby.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://gadsby.me/" rel="alternate" type="text/html" /><updated>2020-05-19T18:23:58-05:00</updated><id>https://gadsby.me/feed.xml</id><title type="html">gadsby</title><subtitle>lamps in video games use real electricity.</subtitle><entry><title type="html">How to synchronize subtitles for MPC-HC</title><link href="https://gadsby.me/media/softwares/2020/05/20/synchronize-subtitles-mpc-hc.html" rel="alternate" type="text/html" title="How to synchronize subtitles for MPC-HC" /><published>2020-05-20T00:00:00-05:00</published><updated>2020-05-20T00:00:00-05:00</updated><id>https://gadsby.me/media/softwares/2020/05/20/synchronize-subtitles-mpc-hc</id><content type="html" xml:base="https://gadsby.me/media/softwares/2020/05/20/synchronize-subtitles-mpc-hc.html">&lt;h1 id=&quot;when-you-see-the-words-coming-earlier-than-voices&quot;&gt;When you see the words coming earlier than voices.&lt;/h1&gt;
+
+&lt;p&gt;Sometimes when you download movies and it comes along with the subtitles but the subtitles is not in your language, then you found a subtitle for your language but sometimes the subtitles is not synchronize with the movie.&lt;/p&gt;
+
+&lt;p&gt;This is what happened to me right now so I wanted to post this if anyone find this post can fix. You can resync the subtitles easily with MPC-HC (Media Player Classic - Home Cinema)!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Open the movie.&lt;/li&gt;
+  &lt;li&gt;Load the subtitle.&lt;/li&gt;
+  &lt;li&gt;Press Ctrl+6&lt;/li&gt;
+  &lt;li&gt;You can see the sequence of the subtitles.&lt;/li&gt;
+  &lt;li&gt;When you see subtitles is not synchronize with current scene, pause it on the beginning of a dialog.&lt;/li&gt;
+  &lt;li&gt;Then select the subtitles based on scene dialog on the subresync console.&lt;/li&gt;
+  &lt;li&gt;Right click them select current.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/mpc-hc-resync.png&quot; alt=&quot;This is how it looks&quot; title=&quot;The red subtitles indicate where I am right now but the subtitle that I highleted is actually what I hear.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can get &lt;a href=&quot;https://mpc-hc.org/&quot;&gt;Media Player Classic - Home Cinema&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">When you see the words coming earlier than voices.</summary></entry><entry><title type="html">GitHub keeps saying “This branch is X commits ahead, Y commits behind”</title><link href="https://gadsby.me/git/2020/05/14/X-commits-ahead-Y-commits-behind.html" rel="alternate" type="text/html" title="GitHub keeps saying “This branch is X commits ahead, Y commits behind”" /><published>2020-05-14T00:00:00-05:00</published><updated>2020-05-14T00:00:00-05:00</updated><id>https://gadsby.me/git/2020/05/14/X-commits-ahead-Y-commits-behind</id><content type="html" xml:base="https://gadsby.me/git/2020/05/14/X-commits-ahead-Y-commits-behind.html">&lt;h1 id=&quot;this-branch-is-x-commits-ahead-y-commits-behind&quot;&gt;This branch is X commits ahead, Y commits behind&lt;/h1&gt;
 
 &lt;p&gt;There is a easier way to sync your fork with the original repository. Open your git:&lt;/p&gt;
 
@@ -27,7 +45,7 @@
 &lt;pre&gt;&lt;code class=&quot;language-git&quot;&gt;git push origin [name_of_your_new_branch]
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;I use &lt;a href=&quot;https://desktop.github.com/&quot;&gt;GitHub Desktop&lt;/a&gt; which is easy to use for overall.&lt;/p&gt;</content><author><name></name></author><summary type="html">This branch is X commits ahead, Y commits behind”</summary></entry><entry><title type="html">Fastpages Notebook Blog Post</title><link href="https://gadsby.me/jupyter/2020/02/20/test.html" rel="alternate" type="text/html" title="Fastpages Notebook Blog Post" /><published>2020-02-20T00:00:00-06:00</published><updated>2020-02-20T00:00:00-06:00</updated><id>https://gadsby.me/jupyter/2020/02/20/test</id><content type="html" xml:base="https://gadsby.me/jupyter/2020/02/20/test.html">&lt;!--
+&lt;p&gt;I use &lt;a href=&quot;https://desktop.github.com/&quot;&gt;GitHub Desktop&lt;/a&gt; which is easy to use for overall.&lt;/p&gt;</content><author><name></name></author><summary type="html">This branch is X commits ahead, Y commits behind</summary></entry><entry><title type="html">Fastpages Notebook Blog Post</title><link href="https://gadsby.me/jupyter/2020/02/20/test.html" rel="alternate" type="text/html" title="Fastpages Notebook Blog Post" /><published>2020-02-20T00:00:00-06:00</published><updated>2020-02-20T00:00:00-06:00</updated><id>https://gadsby.me/jupyter/2020/02/20/test</id><content type="html" xml:base="https://gadsby.me/jupyter/2020/02/20/test.html">&lt;!--
 #################################################
 ### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
 #################################################
