@@ -2,7 +2,7 @@
 toc: false
 layout: post
 description: I got this when I started using github.
-categories: [git]
+categories: [git, how-to]
 title: GitHub keeps saying “This branch is X commits ahead, Y commits behind”
 ---
 # This branch is X commits ahead, Y commits behind
