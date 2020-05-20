@@ -13,8 +13,6 @@ Go to `edge://flags/#cast-media-route-provider` and `edge://flags/#load-media-ro
 
 So this is how it suppose to look;
 
-chromecast-edge-screenshot
-
 ![Both are enabled](/images/chromecast-edge-screenshot.jpg)
 
 Then it should work.
