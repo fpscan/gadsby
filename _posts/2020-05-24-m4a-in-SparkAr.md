@@ -4,7 +4,7 @@ layout: post
 description: They want you to have very special .m4a file.
 categories: [how-to, social]
 title: How to convert and use .m4a files for SparkAR
-image: images/th/audacity-ss-th.png
+image: images/audacity-ss-th.png
 ---
 # Audio files are tricky with Spark AR
 

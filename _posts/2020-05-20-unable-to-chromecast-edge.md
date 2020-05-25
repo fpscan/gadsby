@@ -4,7 +4,7 @@ layout: post
 description: When you moved Microsoft Edge from Google Chrome but you can't cast to any chromecast.
 categories: [how-to, browser, softwares]
 title: How to cast to Chromcast in Microsoft Edge
-image: images/th/chromecast-edge-th.png
+image: images/chromecast-edge-th.png
 ---
 # When you see the words coming earlier than voices.
 
