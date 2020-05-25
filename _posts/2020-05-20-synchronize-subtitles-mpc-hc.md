@@ -4,6 +4,7 @@ layout: post
 description: Sometimes when you download movies and it comes along with the subtitles but the subtitles is not in your language, then you found a subtitle for your language but sometimes the subtitles is not synchronize with the movie.
 categories: [how-to, media, softwares]
 title: How to synchronize subtitles for MPC-HC
+image: images/th/subtitles-mpchc-th.png
 ---
 # When you see the words coming earlier than voices.
 
