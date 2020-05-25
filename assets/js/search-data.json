@@ -2,6 +2,17 @@
   
     
         "post0": {
+            "title": "How to add intro to multiple videos",
+            "content": "FFmpeg and simple .bat file let you add your intros to videos. . There may be more than one way to achieve this, and it can be divided into paid or non-paid or fast or compatibility.What can we do? We can add intro to the beginning of more than one video using FFmpeg. For this we need FFmpeg and a smooth folder structure so we can work more efficiently. . Folder Structure . Why is this important? Because working in a tidy environment is critical to efficiency and success. So the Folder Structure should be like this; . input(folder) &gt; the videos we have will store here output(folder) &gt; the videos we will get with intro file will be there intro(video file) run.bat &gt; the script we will use . So this how it suppose to look; . . Script . First you need to have FFmpeg and you need to add into your path in order to use it globally. . How to do that? . Unzip the FFmpeg to your C: drive. | Then there will be bin folder, copy the folder path | Right Click to Computer &gt; Properties &gt; Advanced System Settings &gt; Environment Variables &gt; System Variables &gt; Edit then Add C: ffmpeg bin to this list | Make a file as run.bat then right click and edit with Sublime Text or any other capable software or save it as .txt and edit with notepad then you can change extension back to .bat file. . SET RESOLUTION=&quot;1920:1080&quot; SET INPUT_FOLDER=&quot;input&quot; SET INTRO=&quot;intro.mov&quot; SET OUTPUT_FOLDER=&quot;output&quot; for %%a in (&quot;%INPUT_FOLDER% *.*&quot;) do ffmpeg -i %INTRO% -i &quot;%%a&quot; -filter_complex &quot;[0:v]scale=%RESOLUTION%:force_original_aspect_ratio=1,pad=%RESOLUTION%:(ow-iw)/2:(oh-ih)/2[v0]; [1:v]scale=%RESOLUTION%:force_original_aspect_ratio=1,pad=%RESOLUTION%:(ow-iw)/2:(oh-ih)/2[v1]; [v0][0:a][v1][1:a]concat=n=2:v=1:a=1[v][a]&quot; -map [v] -map [a] &quot;%OUTPUT_FOLDER% %%~na.mp4&quot; . So what it does? . SET RESOLUTION=&quot;1920:1080&quot; is force the resolution 1080p . SET INPUT_FOLDER=&quot;input&quot; is the locate the place for your input folder . SET INTRO=&quot;intro.mov&quot; is the intro file you can change file name and extension based on what you have . SET OUTPUT_FOLDER=&quot;output this is the folder for output files .",
+            "url": "https://gadsby.me/how-to/video/2020/05/25/batch-add-intro.html",
+            "relUrl": "/how-to/video/2020/05/25/batch-add-intro.html",
+            "date": " • May 25, 2020"
+        }
+        
+    
+  
+    
+        ,"post1": {
             "title": "How to convert and use .m4a files for SparkAR",
             "content": "Audio files are tricky with Spark AR . There aren’t lots of options for adding audio to your Spark AR Studio effects. It supports .m4a but you can’t use a simple converted file. You need to have mono not stereo file. So what you can do is simple, you can use simple, free and open-source software called Audacity. So you can convert your .mp3 or anyother audio file to .m4a with mono. Download the Audacity software by clicking this whole sentence. . After the download it may ask you to locate avformat-55.dll this probable mean that you used portable version instead full installation. So you can go to this download page and download FFmpeg RECOMMENDED ZIP OPTION: then you can unzip the file and you will have the avformat-55.dll which is a part of ffmpeg then locate it. . How to convert the file to .m4a in corect way . You can check Spark AR documentation by going here but one thing I am pretty sure you can’t use every audio file. It has to be Mono .m4a file. . Open Audacity then open your file by going Open &gt; your file You will have your file listed on front of you | Then you need to Split to Mono | Then remove second part which is right track with clicking x right next to file name | Now you have to change PCM(Pulse-code modulation) to 16-bit by clicking the file name Format &gt; 16-bit PCM | Your audio file usually in 44100hz but in case it’s not, you have to change it to; | From now you can safely export by File &gt; Export &gt; Export as WAV change save as type to .m4a and quality usually same so if you think it has less quality you can export with higher quality option. | . Now you can import your audio file into Spark AR scene. .",
             "url": "https://gadsby.me/how-to/social/2020/05/24/m4a-in-SparkAr.html",
@@ -12,7 +23,7 @@
     
   
     
-        ,"post1": {
+        ,"post2": {
             "title": "How to cast to Chromcast in Microsoft Edge",
             "content": "When you see the words coming earlier than voices. . This has to work spontaneously, but it doesn’t work in most scenarios. Make sure your Chromecast supported device and the device you are cast to are on the same network, and if possible, test Chromecast using Google Chrome. Enable the following flags after making sure they work with Google Chrome. . Go to edge://flags/#cast-media-route-provider and edge://flags/#load-media-router-component-extension then change to enabled from default. . So this is how it suppose to look; . . Then it should work. .",
             "url": "https://gadsby.me/how-to/browser/softwares/2020/05/20/unable-to-chromecast-edge.html",
@@ -23,7 +34,7 @@
     
   
     
-        ,"post2": {
+        ,"post3": {
             "title": "How to synchronize subtitles for MPC-HC",
             "content": "When you see the words coming earlier than voices. . Sometimes when you download movies and it comes along with the subtitles but the subtitles is not in your language, then you found a subtitle for your language but sometimes the subtitles is not synchronize with the movie. . This is what happened to me right now so I wanted to post this if anyone find this post can fix. You can resync the subtitles easily with MPC-HC (Media Player Classic - Home Cinema)! . Open the movie. | Load the subtitle. | Press Ctrl+6 | You can see the sequence of the subtitles. | When you see subtitles is not synchronize with current scene, pause it on the beginning of a dialog. | Then select the subtitles based on scene dialog on the subresync console. | Right click them select current. | . . You can get Media Player Classic - Home Cinema. .",
             "url": "https://gadsby.me/how-to/media/softwares/2020/05/20/synchronize-subtitles-mpc-hc.html",
@@ -34,7 +45,7 @@
     
   
     
-        ,"post3": {
+        ,"post4": {
             "title": "GitHub keeps saying “This branch is X commits ahead, Y commits behind”",
             "content": "This branch is X commits ahead, Y commits behind . There is a easier way to sync your fork with the original repository. Open your git: . git remote add upstream https://github.com/upstream/repo.git . When you want to sync the changes from upstream . git pull --rebase upstream master . git push --force-with-lease origin master . I highly recommend that you make new branch for each changes, so you can work on something else while other PR is still waiting for approval. . Before creating a new branch, pull the changes from upstream. Your master needs to be up to date. . git pull . Create the branch on your local machine and switch in this branch : . git checkout -b [name_of_your_new_branch] . Push the branch on github : . git push origin [name_of_your_new_branch] . I use GitHub Desktop which is easy to use for overall. .",
             "url": "https://gadsby.me/how-to/git/2020/05/14/X-commits-ahead-Y-commits-behind.html",
