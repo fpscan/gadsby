@@ -4,6 +4,7 @@ layout: post
 description: I got this when I started using github.
 categories: [how-to, git]
 title: GitHub keeps saying “This branch is X commits ahead, Y commits behind”
+html_escape: true
 image: images/git-ahead-behind-th.png
 ---
 # This branch is X commits ahead, Y commits behind

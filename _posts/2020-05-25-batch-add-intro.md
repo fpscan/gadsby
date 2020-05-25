@@ -4,6 +4,7 @@ layout: post
 description: You can add the intro multiple files.
 categories: [how-to, video]
 title: How to add intro to multiple videos
+html_escape: true
 image: images/batch-editing-ffmpeg-th.png
 ---
 # FFmpeg and simple .bat file let you add your intros to videos.
